@@ -1,0 +1,101 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+@media (min-width:300px) and (max-width:414px) {
+
+          *{
+              padding:0px;
+              margin:0px;
+          }
+
+          .FormContainer{
+       
+              margin:100px auto;
+              padding:20px;
+          }
+
+          .FormContainer form{
+           
+              padding:10px;
+            
+          }
+
+           .heder{
+              color:dodgerblue;
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              font-size: 30px;
+              text-align:center;
+              margin:80px auto;
+              
+          }
+          .FormContainer form input{
+            
+            margin:10px auto;
+            width:100%;
+            padding:3px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 18px;
+            margin-top:10px;
+            color:rgb(100, 100, 100);
+            border:none;
+            border-bottom:1px solid rgba(100,  100 , 100);
+
+          
+        }
+
+        .FormContainer form textarea{
+            
+            margin:10px auto;
+            color:rgb(100, 100, 100);
+            width:100%;
+            padding:5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 18px;
+            margin-top:10px;
+            height:140px;
+
+          
+        }
+
+        .FormContainer form label{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+           
+            margin-top:10px;
+            text-align:center;
+            color:rgb(100, 100, 100);
+            margin-left: 30px;
+        }
+
+        .FormContainer .im{
+           
+            align-items: center;
+            
+
+        }
+
+        img{
+            width:100%;
+            height:50%;
+            opacity:70%;
+            border-radius:4%;
+            margin-top:50px;
+        }
+
+        .FormContainer .submitter{
+            background-color: rgb(0, 204, 0);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 19px;
+            margin-top:10px;
+            border:none;
+            border-radius:4px;
+            color:white;
+
+
+        }
+
+         
+
+}
